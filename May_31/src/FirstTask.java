@@ -1,6 +1,10 @@
+import java.util.Scanner;
+
 public class FirstTask {
     public static void main(String[] args) {
-        int num = 370, number, temp, total = 0;
+        int num , number, temp, total = 0;
+        Scanner sc= new Scanner(System.in);
+        num = sc.nextInt();
         number = num;
         while(number != 0){
             temp = number % 10;
